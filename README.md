@@ -5,3 +5,5 @@ O objetivo seria criar uma comunidade de amantes de música onde as opiniões po
 Inglês:
 A web project aimed at evaluating artist albums could be an interactive platform that allows users to rate and comment on musical albums. The goal would be to create 
 a community of music lovers where opinions can be shared and discussed.
+
+Observação: o site ainda está em desenvolvimento mas é um breve resumo de como será o projeto. 
