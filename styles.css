@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden;*/
+    color: #ffb700;    
+    background-color: black;
+    position: relative; 
+    font-family: 'MinhaFonte', sans-serif; 
+}
+
+@font-face {
+    font-family: minhafonte;
+    src: url('Phonk Regular DEMO.otf');
+}
+
+body::before,
+body::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(225px);
+}
+
+body::before {
+    width: 614px;
+    height: 552px;
+    left: 1306px;
+    top: -217px;
+    background: #8200A2;
+}
+
+body::after {
+    width: 689px;
+    height: 543px;
+    left: -155px;
+    top: -351px;
+    background: #FD0000;
+}
+
+body::before {
+    width: 491px;
+    height: 463px;
+    left: 43px;
+    top: 725px;
+    background: #FD0000;
+}
+
+
+body::after {
+    width: 601px;
+    height: 463px;
+    left: 1056px;
+    top: 617px;
+    background: #320FBF;
+}
+
+.margindeinformaçãodetopo {
+    position: top; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 50px; 
+    background: #121212; 
+}
+
+.quadrodeinformação {
+    position: absolute;
+    width: 5000px;
+    height: 183px;
+    left: 400px;
+    top: 165px;
+    background: #000000;
+    overflow: hidden;
+}
+
+.imagem-container {
+    display: flex;
+    animation: scroll 100s linear infinite;
+}
+
+.imagem-container img {
+    width: 5000px;
+    height: 183px; 
+    margin-right: 10px; 
+    border-radius: 0px; 
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+.barradepesquisa {
+    position: absolute;
+    width: 400px; 
+    height: 25px;
+    left: 50%; 
+    top: 100px; 
+    transform: translateX(-50%); 
+    background: #D9D9D9;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.barradepesquisa input[type="text"] {
+    width: 80%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    display: inline-block;
+}
+
+.barradepesquisa input[type="submit"] {
+    width: 50px; 
+    height: 20px;
+    border: none;
+    background: #cccccc;
+    color: #555;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.retangulo1 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 210px;
+    top: 410px;
+    background: #D9D9D9 url("transferir (6).jpeg") center/cover no-repeat; 
+    border-radius: 10px;
+    transition: filter 0.3s ease; 
+}
+
+.retangulo1:hover {
+    filter: brightness(0.7); 
+}
+
+.retangulo2 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 420px;
+    top: 410px;
+    background: #D9D9D9 url("transferir (7).jpeg") center/cover no-repeat; 
+    border-radius: 10px;
+    transition: filter 0.3s ease; 
+}
+
+.retangulo2:hover {
+    filter: brightness(0.7); 
+}
+
+
+.retangulo3 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 630px;
+    top: 410px;
+    background: #D9D9D9 url("Taylor swift reputation wallpaper.jpeg") center/cover no-repeat;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+.retangulo3:hover {
+    filter: brightness(0.7);
+}
+
+.retangulo4 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 840px;
+    top: 410px;
+    background: #D9D9D9 url("Drake.jpeg") center/cover no-repeat;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+.retangulo4:hover {
+    filter: brightness(0.7);
+}
+
+.retangulo5 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 1050px;
+    top: 410px;
+    background: #D9D9D9 url("TRAVIS SCOTT.jpeg") center/cover no-repeat;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+.retangulo5:hover {
+    filter: brightness(0.7);
+}
+
+.retangulo6 {
+    position: absolute;
+    width: 171px;
+    height: 191px;
+    left: 1260px;
+    top: 410px;
+    background: #D9D9D9 url("Lana Del Rey Wallpaper.jpeg") center/cover no-repeat;
+    border-radius: 10px;
+    transition: filter 0.3s ease; 
+}
+
+.retangulo6:hover {
+    filter: brightness(0.7);
+}
+
+.quadrado1 {
+    position: relative;
+    width: 763px;
+    height: 413px;
+    left: 480px;
+    top: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #0038FF 0%, #A200DB 46.14%, #FF1212 96.96%);
+
+}
+
+.quadradodeartista {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 900px;
+    top: 825px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    background-size: 110%; 
+    background-position: center; 
+    transition: filter 0.3s ease;
+}
+
+.quadradodeartista:hover {
+    filter: brightness(0.7);
+}
+
+.quadradodealbum {
+    position: absolute;
+    width: 270px;
+    height: 350px;
+    left: 550px;
+    top: 780px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    background-size: 110%; 
+    background-position: center;
+    transition: filter 0.3s ease;
+}
+
+.quadradodealbum:hover{
+    filter: brightness(0.7);
+}
+
+
+.titulo {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.artista {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+}
+
+.album {
+    position: absolute;
+    top: 1%;
+    left: 460px;
+}
+
+.login {
+    position: absolute;
+    top: 5px;
+    left: 1270px;
+}
+
+.cadastro {
+    position: absolute;
+    top: 5px;
+    left: 1350px;
+}

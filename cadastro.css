@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffd772;    
+    background-color: black;
+    position: relative; 
+    font-family: 'MinhaFonte', sans-serif; 
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('Phonk Regular DEMO.otf');
+}
+
+body::before,
+body::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(225px);
+}
+
+body::before {
+    width: 614px;
+    height: 552px;
+    left: 1306px;
+    top: -217px;
+    background: #8200A2;
+}
+
+body::after {
+    width: 689px;
+    height: 543px;
+    left: -155px;
+    top: -351px;
+    background: #FD0000;
+}
+
+.margindeinformaçãodetopo {
+    position: top; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 50px; 
+    background: #121212; 
+}
+
+.titulo {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+}
+
+.artista {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+}
+
+.album {
+    position: absolute;
+    top: 5px;
+    left: 460px;
+}
+
+.login {
+    position: absolute;
+    top: 5px;
+    left: 1270px;
+}
+
+.cadastro {
+    position: absolute;
+    top: 5px;
+    left: 1350px;
+}
+
+.retangulo1 {
+    position: absolute;
+    width: 500px;
+    height: 590px;
+    left: 500px;
+    top: 100px;
+    background: linear-gradient(180deg, #0C50FF 0%, #D1885E 100%);
+    border-radius: 50px;
+}
+
+.retangulo2 {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 580px;
+    top: 270px;
+    background: linear-gradient(180deg, #0836a9 0%, #ff0800 100%);
+    border-radius: 50px;
+}
+
+.nome {
+    position: absolute;
+    width: 200px; 
+    height: 50px; 
+    left: 630px;
+    top: 300px;
+    border-radius: 10px;
+}
+
+.email {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 630px;
+    top: 370px; 
+    border-radius: 10px;
+}
+
+.senha {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 630px;
+    top: 440px;
+    border-radius: 10px;
+}
+
+.button {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    left: 90px;
+    top: 160px;
+    border-radius: 20px;
+    border-color: green;
+}
